@@ -14,6 +14,18 @@ void testarSomatorioDivisiveis() {
   test("O resultado da soma deve retornar o valor 60", () {
     expect(somatorioDivisiveis(16), 60);
   });
+  test("O resultado da soma deve retornar o valor 78", () {
+    expect(somatorioDivisiveis(20), 78);
+  });
+  test("O resultado da soma deve retornar o valor 98", () {
+    expect(somatorioDivisiveis(21), 98);
+  });
+  test("O resultado da soma deve retornar o valor 143", () {
+    expect(somatorioDivisiveis(25), 143);
+  });
+  test("O resultado da soma deve retornar o valor 168", () {
+    expect(somatorioDivisiveis(26), 168);
+  });
 }
 
 
