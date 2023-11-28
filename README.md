@@ -35,3 +35,5 @@ O programa utilizará a lista de valores [10, 11, 15, 16] e imprimirá o somató
 - Para fazer testes unitários, execute o seguinte comando no terminal:
    ```bash
    dart desafio_test.dart
+
+Este comando executará testes automatizados para garantir que a lógica do somatório esteja correta.
